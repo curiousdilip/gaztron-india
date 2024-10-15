@@ -75,12 +75,12 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      About
+                    Company Information
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Certification
+                    Our Certificate
                     </a>
                   </li>
                 </ul>
@@ -98,12 +98,18 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      About
+                    
+                    PSA Nitrogen Gas Generator Plant
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Certification
+                    PSA Nitrogen Gas Generator Plant DX Model
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                    PSA Nitrogen Gas Generator Plant CUDX Model
                     </a>
                   </li>
                 </ul>
@@ -121,12 +127,34 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      About
+                    PSA Oxygen Gas Generator Plant for Medical Applications
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Certification
+                    On-Site PSA Oxygen Gas Plant for Industrial Applications
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                    PSA Oxygen Gas Plant For Cylinder Filling - 7 Nm3/Hr - 25 Cylinder/Day
+                    </a>
+                  </li> <li>
+                    <a className="dropdown-item" href="#">
+                    VPSA Oxygen Gas Generator
+                    </a>
+                  </li> <li>
+                    <a className="dropdown-item" href="#">
+                    20 NM3/HR On-Site Oxygen Gas Generator
+                    </a>
+                  </li> <li>
+                    <a className="dropdown-item" href="#">
+                    10 NM3/HR PSA Oxygen Gas Plant
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                    30 NM3/HR Oxygen Gas Generator Plant
                     </a>
                   </li>
                 </ul>
@@ -144,13 +172,12 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      About
+                    Ammonia cracking Purifier Unit
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Certification
-                    </a>
+                    Ammonia Cracker Unit                    </a>
                   </li>
                 </ul>
               </li>
