@@ -1,10 +1,12 @@
 import Image from "next/image";
-import styles from "./page.module.scss";
+import "./page.scss";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <>
-      <h1>text</h1>
+      <Header />
+      <section id="hero"></section>
     </>
   );
 }
