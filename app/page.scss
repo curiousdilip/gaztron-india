@@ -440,3 +440,35 @@
     }
   }
 }
+
+#industry {
+  padding: 48px 38px;
+  background: linear-gradient(180deg, #000 0%, #5db156 100%);
+  font-family: "DM Sans", sans-serif;
+
+  .title {
+    text-align: center;
+    h2 {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 38px;
+      color: #fff;
+      margin-top: 28px;
+      margin-bottom: 48px;
+    }
+  }
+
+  .mySwiper {
+    .industry-item {
+      background-color: white;
+      border-radius: 13px;
+      overflow: hidden;
+      .img-container {
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

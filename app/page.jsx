@@ -1,7 +1,16 @@
+"use client";
 import Image from "next/image";
 import "./page.scss";
 import Header from "./components/Header";
+import React, { useRef, useState } from "react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
+// import required modules
+import { Pagination, Navigation } from "swiper/modules";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 export default function Home() {
   return (
     <>
@@ -657,8 +666,7 @@ export default function Home() {
                         src="/img/forty-years-of-experience.svg"
                         width={128}
                         height={128}
-                        alt="40 Years of Experience
-"
+                        alt="40 Years of Experience"
                       />
                     </div>
                     <p>40 Years of Experience</p>
@@ -669,8 +677,7 @@ export default function Home() {
                         src="/img/five-thousand-units-produced.svg"
                         width={128}
                         height={128}
-                        alt="+5.000 Units Produced
-"
+                        alt="+5.000 Units Produced"
                       />
                     </div>
                     <p>+5.000 Units Produced</p>
@@ -681,8 +688,7 @@ export default function Home() {
                         src="/img/high-profile-customers.svg"
                         width={128}
                         height={128}
-                        alt="High Profile Customers
-"
+                        alt="High Profile Customers"
                       />
                     </div>
                     <p>High Profile Customers</p>
@@ -693,8 +699,7 @@ export default function Home() {
                         src="/img/customizability.svg"
                         width={128}
                         height={128}
-                        alt="Customizability
-"
+                        alt="Customizability"
                       />
                     </div>
                     <p>Customizability</p>
@@ -705,8 +710,7 @@ export default function Home() {
                         src="/img/efficient-energy-saving.svg"
                         width={128}
                         height={128}
-                        alt="Efficient & Energy-Saving
-"
+                        alt="Efficient & Energy-Saving"
                       />
                     </div>
                     <p>Efficient & Energy-Saving</p>
@@ -717,8 +721,7 @@ export default function Home() {
                         src="/img/fully-automatic.svg"
                         width={128}
                         height={128}
-                        alt="Fully Automatic
-"
+                        alt="Fully Automatic"
                       />
                     </div>
                     <p>Fully Automatic</p>
@@ -729,14 +732,118 @@ export default function Home() {
                         src="/img/fast-start-up.svg"
                         width={128}
                         height={128}
-                        alt="Fast Start Up
-"
+                        alt="Fast Start Up"
                       />
                     </div>
                     <p>Fast Start Up</p>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="industry">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="title">
+                <Image
+                  src="/img/maintainance.svg"
+                  width={112}
+                  height={112}
+                  alt="maintainance"
+                />
+                <h2>Industries that we have worked with</h2>
+              </div>
+              <Swiper
+                slidesPerView={3}
+                spaceBetween={80}
+                pagination={{
+                  clickable: true,
+                }}
+                loop={true}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <div className="industry-item">
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={380}
+                        height={200}
+                        alt="star"
+                      />
+                    </div>
+                    <div className="content">
+                      <h3>Cement Industries</h3>
+                      <p>
+                        Keeping the cement industry future-equipped with the
+                        latest mechanism and machinery.
+                      </p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="industry-item">
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={380}
+                        height={200}
+                        alt="star"
+                      />
+                    </div>
+                    <div className="content">
+                      <h3>Cement Industries</h3>
+                      <p>
+                        Keeping the cement industry future-equipped with the
+                        latest mechanism and machinery.
+                      </p>
+                    </div>
+                  </div>
+                </SwiperSlide>{" "}
+                <SwiperSlide>
+                  <div className="industry-item">
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={380}
+                        height={200}
+                        alt="star"
+                      />
+                    </div>
+                    <div className="content">
+                      <h3>Cement Industries</h3>
+                      <p>
+                        Keeping the cement industry future-equipped with the
+                        latest mechanism and machinery.
+                      </p>
+                    </div>
+                  </div>
+                </SwiperSlide>{" "}
+                <SwiperSlide>
+                  <div className="industry-item">
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={380}
+                        height={200}
+                        alt="star"
+                      />
+                    </div>
+                    <div className="content">
+                      <h3>Cement Industries</h3>
+                      <p>
+                        Keeping the cement industry future-equipped with the
+                        latest mechanism and machinery.
+                      </p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </div>
