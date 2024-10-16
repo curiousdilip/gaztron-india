@@ -1,75 +1,234 @@
 #hero {
-padding-top: 130px;
-background-color: #000;
-.carousel{
-  .carousel-inner{
-    .carousel-item{
-      height: 800px;
-      .carousel-caption{
-     top: 0%;
-     bottom: 0%;
-        background-color: rebeccapurple;
-    animation: bubble 5s linear infinite;
-    background-image: linear-gradient(to top, #60BA5F 0%, #206394 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    // margin-left: 250px;
-    max-width: 50%;
-    padding: 187px ;
-    border-radius: 50%;
-    // position: relative;
-    height: 90%;
-    // width: 50%;
-    margin:  auto;
-    z-index: 1;
+  padding-top: 130px;
+  background-color: #000;
+  .carousel {
+    .carousel-inner {
+      .carousel-item {
+        height: 800px;
+        .carousel-caption {
+          top: 0%;
+          bottom: 0%;
+          background-color: rebeccapurple;
+          animation: bubble 5s linear infinite;
+          background-image: linear-gradient(to top, #60ba5f 0%, #206394 100%);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          // margin-left: 250px;
+          max-width: 50%;
+          padding: 187px;
+          border-radius: 50%;
+          // position: relative;
+          height: 90%;
+          // width: 50%;
+          margin: auto;
+          z-index: 1;
 
-    p{
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 18px;
-      text-align: center;
-    }
+          p {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+            text-align: center;
+          }
 
-    .cta-button{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 24px;
-      a{
-        text-decoration: none;
-        color: #60BA5F;
-        border-radius: 12px;
-        padding: 18px 24px;
-        font-size: 28px;
-        line-height: 24px;
-        text-align: center;
-        background-color: #fff;
-        &:nth-child(2){
-background-color: #DA0D61;
-color: #fff;
+          .cta-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+            a {
+              text-decoration: none;
+              color: #60ba5f;
+              border-radius: 12px;
+              padding: 18px 24px;
+              font-size: 28px;
+              line-height: 24px;
+              text-align: center;
+              background-color: #fff;
+              &:nth-child(2) {
+                background-color: #da0d61;
+                color: #fff;
+              }
+            }
+          }
         }
-      }
 
-    }
-      }
-
-
-      @keyframes bubble {
-        0%, 100% {
-          border-radius: 64% 46% 37% 73% / 55% 58% 42% 45%;
-      }
-      25% {
-          border-radius: 43% 47% 47% 38% / 43% 46% 64% 27%;
-      }
-      50% {
-          border-radius: 48% 72% 44% 56% / 49% 40% 60% 51%;
-      }
-      75% {
-          border-radius: 40% 60% 70% 30% / 47% 62% 38% 53%;
-      }
+        @keyframes bubble {
+          0%,
+          100% {
+            border-radius: 64% 46% 37% 73% / 55% 58% 42% 45%;
+          }
+          25% {
+            border-radius: 43% 47% 47% 38% / 43% 46% 64% 27%;
+          }
+          50% {
+            border-radius: 48% 72% 44% 56% / 49% 40% 60% 51%;
+          }
+          75% {
+            border-radius: 40% 60% 70% 30% / 47% 62% 38% 53%;
+          }
+        }
       }
     }
   }
 }
+
+#services {
+  font-family: "DM Sans", sans-serif;
+
+  .service {
+    .col-sm-6 {
+      background-color: #1dafd9;
+      &:nth-child(2) {
+        background-color: #3ab2b2;
+      }
+      &:nth-child(3) {
+        background-color: #42b3a3;
+      }
+      &:nth-child(4) {
+        background-color: #4ab594;
+      }
+      &:nth-child(5) {
+        background-color: #59b871;
+      }
+      &:nth-child(6) {
+        background-color: #60b95f;
+      }
+      .icon-box {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        padding: 32px 16px;
+        h2 {
+          margin: 18px 0;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 33px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+#about-gaztron {
+  font-family: "DM Sans", sans-serif;
+
+  padding: 40px 0;
+  background: linear-gradient(180deg, #000000 0%, #5fb961 100%);
+  text-align: center;
+  .content {
+    h2 {
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 66px;
+      color: #fff;
+      max-width: 514px;
+      margin: 0 auto;
+      span {
+        font-weight: 500;
+      }
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      line-height: 11px;
+      margin-bottom: 32px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      color: #fff;
+    }
+
+    a {
+      display: inline-block;
+      padding: 18px 55px;
+      background: #da0d61;
+      border-radius: 12px;
+      color: #fff;
+      text-decoration: none;
+      font-family: DM Sans;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-top: 1rem;
+    }
+  }
+}
+
+#nitrogen-gas {
+  padding: 48px 40px;
+  font-family: "DM Sans", sans-serif;
+  background: linear-gradient(180deg, #000 0%, #0aaee6 100%);
+  .img-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .main-image {
+      object-fit: cover;
+      border: 6px solid #5fb961;
+      border-radius: 12px;
+      z-index: 99;
+      margin: 25px;
+      // display: none;
+    }
+    .top-dots {
+      position: absolute;
+      z-index: 50;
+      top: 0;
+      right: 17%;
+    }
+
+    .bottom-dots {
+      position: absolute;
+      z-index: 50;
+      bottom: 0;
+      left: 17%;
+      z-index: 50;
+    }
+  }
+
+  .content {
+    h2 {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      text-align: left;
+      span {
+        font-size: 55px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #fff;
+      margin: 28px 0;
+      font-weight: 500;
+      line-height: 30px;
+    }
+
+    ul {
+      // padding: 0;
+      list-style: none outside none;
+      li {
+        list-style-image: url(/img/point.svg);
+        line-height: 25px;
+        color: #fff;
+        margin-bottom: 24px;
+
+        &::marker {
+          font-size: 5px;
+        }
+      }
+    }
+  }
 }
