@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import "./page.scss";
-import Header from "./components/Header";
 import React, { useRef, useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -11,10 +10,13 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import Navbar from "./components/Header";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <section id="hero">
         <div id="carouselExampleCaptions" className="carousel slide">
           <div className="carousel-indicators">
@@ -271,21 +273,21 @@ export default function Home() {
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
               <Image
-                className="main-image img-fluid"
+                className="main-image "
                 src="/img/On-Site_PSA_Nitrogen_Gas_Generator_Plant.jpeg"
                 width={770}
                 height={770}
-                alt="arrow"
+                alt="Nitrogen Gas Generation Solutions"
               />
               <Image
                 className="bottom-dots"
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
             </div>
           </div>
@@ -423,21 +425,21 @@ export default function Home() {
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
               <Image
-                className="main-image img-fluid"
-                src="/img/On-Site_PSA_Nitrogen_Gas_Generator_Plant.jpeg"
-                width={770}
-                height={770}
-                alt="arrow"
+                className="main-image "
+                src="/img/PSA_Oxygen_Gas_Generator_Plant.jpeg"
+                width={784}
+                height={784}
+                alt="PSA Oxygen Gas Plant"
               />
               <Image
                 className="bottom-dots"
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
             </div>
           </div>
@@ -453,21 +455,21 @@ export default function Home() {
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
               <Image
-                className="main-image img-fluid"
-                src="/img/On-Site_PSA_Nitrogen_Gas_Generator_Plant.jpeg"
+                className="main-image"
+                src="/img/Gaztron_Ammonia_Cracker.jpeg"
                 width={770}
                 height={770}
-                alt="arrow"
+                alt="Ammonia (NH3) Cracker"
               />
               <Image
                 className="bottom-dots"
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
             </div>
           </div>
@@ -605,21 +607,21 @@ export default function Home() {
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
               <Image
-                className="main-image img-fluid"
-                src="/img/On-Site_PSA_Nitrogen_Gas_Generator_Plant.jpeg"
+                className="main-image "
+                src="/img/Cryogenic_ASU_Gas_Plants.jpeg"
                 width={770}
                 height={770}
-                alt="arrow"
+                alt="Cryogenic ASU Gas Plants"
               />
               <Image
                 className="bottom-dots"
                 src="/img/dots.svg"
                 width={63}
                 height={67}
-                alt="arrow"
+                alt="dots"
               />
             </div>
           </div>
@@ -853,17 +855,16 @@ export default function Home() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
-
               <div className="title">
                 <Image
-                  src="/img/maintainance.svg"
+                  src="/img/trust.svg"
                   width={112}
                   height={112}
                   alt="trust icon"
                 />
                 <h2>Trusted By Brands Across The Globe</h2>
                 <Swiper
-                  slidesPerView={6}
+                  slidesPerView={8}
                   spaceBetween={80}
                   pagination={{
                     clickable: true,
@@ -874,81 +875,311 @@ export default function Home() {
                   className="client-slider"
                 >
                   <SwiperSlide>
-                    <div className="img-container ">
-                      <Image
-                        className="img-fluid"
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/hero.svg"
+                      width={153}
+                      height={198}
+                      alt="Hero"
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="img-container">
-                      <Image
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
-                  </SwiperSlide>  <SwiperSlide>
-                    <div className="img-container">
-                      <Image
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
-                  </SwiperSlide>  <SwiperSlide>
-                    <div className="img-container">
-                      <Image
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
-                  </SwiperSlide>  <SwiperSlide>
-                    <div className="img-container">
-                      <Image
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
-                  </SwiperSlide>  <SwiperSlide>
-                    <div className="img-container">
-                      <Image
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
-                  </SwiperSlide>  <SwiperSlide>
-                    <div className="img-container">
-                      <Image
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
-                  </SwiperSlide>  <SwiperSlide>
-                    <div className="img-container">
-                      <Image
-                        src="/img/Ammonia_Cracker.jpeg"
-                        width={80}
-                        height={80}
-                        alt="hero"
-                      />
-                    </div>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/aditya-birla.svg"
+                      width={153}
+                      height={198}
+                      alt="Aditya birla"
+                    />
                   </SwiperSlide>
-
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/lg.svg"
+                      width={153}
+                      height={198}
+                      alt="lg"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/csir.svg"
+                      width={153}
+                      height={198}
+                      alt="csir"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/assa.svg"
+                      width={153}
+                      height={198}
+                      alt="assa"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/tata.svg"
+                      width={153}
+                      height={198}
+                      alt="tata"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/reliance.svg"
+                      width={153}
+                      height={198}
+                      alt="reliance"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/landt.svg"
+                      width={153}
+                      height={198}
+                      alt="L & T"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/haier.svg"
+                      width={153}
+                      height={198}
+                      alt="haier"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/samsung.svg"
+                      width={153}
+                      height={198}
+                      alt="samsung"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/lalitpurpower.svg"
+                      width={153}
+                      height={198}
+                      alt="lalit power generation company limited"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/fizz.svg"
+                      width={153}
+                      height={198}
+                      alt="fizz"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/bazazgroup.svg"
+                      width={153}
+                      height={198}
+                      alt="bazaz group"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/hycorr.svg"
+                      width={153}
+                      height={198}
+                      alt="hycorr"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/nellara.svg"
+                      width={153}
+                      height={198}
+                      alt="nellara"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/alok.svg"
+                      width={153}
+                      height={198}
+                      alt="alok"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/hindustanunilever.svg"
+                      width={153}
+                      height={198}
+                      alt="hindustan unilever"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/frooti.svg"
+                      width={153}
+                      height={198}
+                      alt="frooti"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/fizzappy.svg"
+                      width={153}
+                      height={198}
+                      alt="fizzappy"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/nfl.svg"
+                      width={153}
+                      height={198}
+                      alt="nfl"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/plogo.svg"
+                      width={153}
+                      height={198}
+                      alt="p"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/arctic.svg"
+                      width={153}
+                      height={198}
+                      alt="arctic"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/eil.svg"
+                      width={153}
+                      height={198}
+                      alt="eil"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/kribhco.svg"
+                      width={153}
+                      height={198}
+                      alt="kribhco"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/wildstone.svg"
+                      width={153}
+                      height={198}
+                      alt="wildstone"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/sail.svg"
+                      width={153}
+                      height={198}
+                      alt="sail"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/starion.svg"
+                      width={153}
+                      height={198}
+                      alt="starion"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/ester.svg"
+                      width={153}
+                      height={198}
+                      alt="ester"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/usha-martin.svg"
+                      width={153}
+                      height={198}
+                      alt="usha-martin"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/bajajenergy.svg"
+                      width={153}
+                      height={198}
+                      alt="bajaj energy"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/rmc.svg"
+                      width={153}
+                      height={198}
+                      alt="rmc"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/pmcares.svg"
+                      width={153}
+                      height={198}
+                      alt="pmcares"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/apollo.svg"
+                      width={153}
+                      height={198}
+                      alt="apollo"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      className="img-fluid"
+                      src="/img/clients/whirlpool.svg"
+                      width={153}
+                      height={198}
+                      alt="whirlpool"
+                    />
+                  </SwiperSlide>
                 </Swiper>
               </div>
             </div>
@@ -962,10 +1193,12 @@ export default function Home() {
             <div className="col-md-6">
               <div className="faq-content">
                 <h2>Frequently Asked Questions</h2>
-                <h3>Have a question? Check out our frequently asked questions
-                  to find your answer.</h3>
+                <h3>
+                  Have a question? Check out our frequently asked questions to
+                  find your answer.
+                </h3>
                 <Image
-                  src="/img/maintainance.svg"
+                  src="/img/faq.svg"
                   width={559}
                   height={395}
                   alt="trust icon"
@@ -973,87 +1206,186 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-6">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <div
+                className="accordion accordion-flush"
+                id="accordionFlushExample"
+              >
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
                       How do we obtain a quotation?
-
                     </button>
                   </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Drop us an email with your inquiry at info@gaztron.in, and we'll send you a quote.
+                  <div
+                    id="flush-collapseOne"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      Drop us an email with your inquiry at info@gaztron.in, and
+                      we'll send you a quote.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
                       Do you offer post-purchase services?
-
                     </button>
                   </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Absolutely, we offer after-sales services to customers all around the world.</div>
+                  <div
+                    id="flush-collapseTwo"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      Absolutely, we offer after-sales services to customers all
+                      around the world.
+                    </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
                       What is the time frame for delivery?
                     </button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Typically, 45 days.</div>
+                  <div
+                    id="flush-collapseThree"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">Typically, 45 days.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    What is your primary manufacturing product?
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      What is your primary manufacturing product?
                     </button>
                   </h2>
-                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">We manufacture the following types of gas plants:<br/>
-                    <br/>
-1. PSA Nitrogen Gas Plants<br/>
-2. Ammonia Cracker<br/>
-3. Gas Storage Tanks<br/>
-4. PSA Oxygen Gas Plants<br/>
-5. Air Dryer<br/>
-6. Cryo Plants.</div>
+                  <div
+                    id="flush-collapseFour"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      We manufacture the following types of gas plants:
+                      <br />
+                      <br />
+                      1. PSA Nitrogen Gas Plants
+                      <br />
+                      2. Ammonia Cracker
+                      <br />
+                      3. Gas Storage Tanks
+                      <br />
+                      4. PSA Oxygen Gas Plants
+                      <br />
+                      5. Air Dryer
+                      <br />
+                      6. Cryo Plants.
+                    </div>
                   </div>
-                </div>  
-                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                    Is Your Business International Quality Standard Certified?
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      Is Your Business International Quality Standard Certified?
                     </button>
                   </h2>
-                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Indeed, Gaztron India has received ISO 9001:2015 certification from TÜV Rheinland Germany.</div>
+                  <div
+                    id="flush-collapseFive"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      Indeed, Gaztron India has received ISO 9001:2015
+                      certification from TÜV Rheinland Germany.
+                    </div>
                   </div>
-                </div>  
-                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                    How do you handle product packaging?
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                      How do you handle product packaging?
                     </button>
                   </h2>
-                  <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">We pack equipment in accordance with international standards.</div>
+                  <div
+                    id="flush-collapseSix"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      We pack equipment in accordance with international
+                      standards.
+                    </div>
                   </div>
-                </div>   
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                    Has a statutory authority approved your manufacturing facility?
-
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSeven"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSeven"
+                    >
+                      Has a statutory authority approved your manufacturing
+                      facility?
                     </button>
                   </h2>
-                  <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Yes, Gaztron has secured the necessary legal licenses, in addition to the fact that this facility has NSIC approval.
-</div>
+                  <div
+                    id="flush-collapseSeven"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      Yes, Gaztron has secured the necessary legal licenses, in
+                      addition to the fact that this facility has NSIC approval.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1062,8 +1394,65 @@ export default function Home() {
         </div>
       </section>
 
-
-      
+      <section id="quote">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="quote-container">
+                <h2>Frequently Asked Questions</h2>
+                <h3>Just submit your details and we’ll be in touch shortly.</h3>
+                <Image
+                  src="/img/contact.svg"
+                  width={559}
+                  height={395}
+                  alt="contact image"
+                />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <h4>I would like to discuss:</h4>
+              <form action="#">
+                <select
+                  className="form-select"
+                  aria-label="Default select example"
+                >
+                  <option value="1">PSA Nitrogen Generator</option>
+                  <option defaultValue="2">PSA Oxygen Generator</option>
+                  <option value="3">Cryogenic Gas plants</option>
+                  <option value="4">Ammonia Cracker</option>
+                  <option value="5">Air dryers</option>
+                </select>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Full Name *"
+                />
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Email Mail *"
+                />
+                <input
+                  type="tel"
+                  className="form-control"
+                  placeholder="Phone Number *"
+                />
+                <textarea
+                  className="form-control"
+                  rows="3"
+                  placeholder="Your Message *"
+                ></textarea>
+                <div className="btns">
+                  <button type="submit" className="btn btnsubmit">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Footer />
     </>
   );
 }
