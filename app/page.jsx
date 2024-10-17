@@ -765,7 +765,7 @@ export default function Home() {
                 loop={true}
                 navigation={true}
                 modules={[Pagination, Navigation]}
-                className="mySwiper"
+                className="industries"
               >
                 <SwiperSlide>
                   <div className="industry-item">
@@ -844,6 +844,113 @@ export default function Home() {
                   </div>
                 </SwiperSlide>
               </Swiper>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="clients">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+        
+              <div className="title">
+                <Image
+                  src="/img/maintainance.svg"
+                  width={112}
+                  height={112}
+                  alt="trust icon"
+                />
+                <h2>Trusted By Brands Across The Globe</h2>
+                <Swiper
+                slidesPerView={6}
+                spaceBetween={80}
+                pagination={{
+                  clickable: true,
+                }}
+                loop={true}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+                className="client-slider"
+              >
+                <SwiperSlide>
+                    <div className="img-container ">
+                      <Image 
+                      className="img-fluid"
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>  <SwiperSlide>
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>  <SwiperSlide>
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>  <SwiperSlide>
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>  <SwiperSlide>
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>  <SwiperSlide>
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>  <SwiperSlide>
+                    <div className="img-container">
+                      <Image
+                        src="/img/Ammonia_Cracker.jpeg"
+                        width={80}
+                        height={80}
+                        alt="hero"
+                      />
+                    </div>
+                </SwiperSlide>
+               
+              </Swiper>
+              </div>
             </div>
           </div>
         </div>
