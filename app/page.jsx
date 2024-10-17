@@ -848,12 +848,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       <section id="clients">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
-        
+
               <div className="title">
                 <Image
                   src="/img/maintainance.svg"
@@ -863,28 +863,28 @@ export default function Home() {
                 />
                 <h2>Trusted By Brands Across The Globe</h2>
                 <Swiper
-                slidesPerView={6}
-                spaceBetween={80}
-                pagination={{
-                  clickable: true,
-                }}
-                loop={true}
-                navigation={true}
-                modules={[Pagination, Navigation]}
-                className="client-slider"
-              >
-                <SwiperSlide>
+                  slidesPerView={6}
+                  spaceBetween={80}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  loop={true}
+                  navigation={true}
+                  modules={[Pagination, Navigation]}
+                  className="client-slider"
+                >
+                  <SwiperSlide>
                     <div className="img-container ">
-                      <Image 
-                      className="img-fluid"
+                      <Image
+                        className="img-fluid"
                         src="/img/Ammonia_Cracker.jpeg"
                         width={80}
                         height={80}
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
+                  </SwiperSlide>
+                  <SwiperSlide>
                     <div className="img-container">
                       <Image
                         src="/img/Ammonia_Cracker.jpeg"
@@ -893,7 +893,7 @@ export default function Home() {
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>  <SwiperSlide>
+                  </SwiperSlide>  <SwiperSlide>
                     <div className="img-container">
                       <Image
                         src="/img/Ammonia_Cracker.jpeg"
@@ -902,7 +902,7 @@ export default function Home() {
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>  <SwiperSlide>
+                  </SwiperSlide>  <SwiperSlide>
                     <div className="img-container">
                       <Image
                         src="/img/Ammonia_Cracker.jpeg"
@@ -911,7 +911,7 @@ export default function Home() {
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>  <SwiperSlide>
+                  </SwiperSlide>  <SwiperSlide>
                     <div className="img-container">
                       <Image
                         src="/img/Ammonia_Cracker.jpeg"
@@ -920,7 +920,7 @@ export default function Home() {
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>  <SwiperSlide>
+                  </SwiperSlide>  <SwiperSlide>
                     <div className="img-container">
                       <Image
                         src="/img/Ammonia_Cracker.jpeg"
@@ -929,7 +929,7 @@ export default function Home() {
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>  <SwiperSlide>
+                  </SwiperSlide>  <SwiperSlide>
                     <div className="img-container">
                       <Image
                         src="/img/Ammonia_Cracker.jpeg"
@@ -938,7 +938,7 @@ export default function Home() {
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>  <SwiperSlide>
+                  </SwiperSlide>  <SwiperSlide>
                     <div className="img-container">
                       <Image
                         src="/img/Ammonia_Cracker.jpeg"
@@ -947,14 +947,123 @@ export default function Home() {
                         alt="hero"
                       />
                     </div>
-                </SwiperSlide>
-               
-              </Swiper>
+                  </SwiperSlide>
+
+                </Swiper>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section id="faq">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="faq-content">
+                <h2>Frequently Asked Questions</h2>
+                <h3>Have a question? Check out our frequently asked questions
+                  to find your answer.</h3>
+                <Image
+                  src="/img/maintainance.svg"
+                  width={559}
+                  height={395}
+                  alt="trust icon"
+                />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      How do we obtain a quotation?
+
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Drop us an email with your inquiry at info@gaztron.in, and we'll send you a quote.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Do you offer post-purchase services?
+
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Absolutely, we offer after-sales services to customers all around the world.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      What is the time frame for delivery?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Typically, 45 days.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    What is your primary manufacturing product?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">We manufacture the following types of gas plants:<br/>
+                    <br/>
+1. PSA Nitrogen Gas Plants<br/>
+2. Ammonia Cracker<br/>
+3. Gas Storage Tanks<br/>
+4. PSA Oxygen Gas Plants<br/>
+5. Air Dryer<br/>
+6. Cryo Plants.</div>
+                  </div>
+                </div>  
+                 <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Is Your Business International Quality Standard Certified?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Indeed, Gaztron India has received ISO 9001:2015 certification from TÜV Rheinland Germany.</div>
+                  </div>
+                </div>  
+                 <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    How do you handle product packaging?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">We pack equipment in accordance with international standards.</div>
+                  </div>
+                </div>   
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    Has a statutory authority approved your manufacturing facility?
+
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Yes, Gaztron has secured the necessary legal licenses, in addition to the fact that this facility has NSIC approval.
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      
     </>
   );
 }

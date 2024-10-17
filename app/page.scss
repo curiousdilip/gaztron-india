@@ -545,46 +545,49 @@
   }
 
   .client-slider {
-    
-align-items: center;
-    .swiper-button-prev{
-      background-color:#354ED2 ;
+
+    align-items: center;
+
+    .swiper-button-prev {
+      background-color: #354ED2;
       border-radius: 50%;
       width: 34px;
       height: 34px;
       margin-right: 40px;
-      &::after{
-        font-size: 10px;
-     
-      margin-top: 0;
-      z-index: 10;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      }
-  }
 
-  .swiper-button-next{
-    background-color:#354ED2 ;
-    border-radius: 50%;
-    width: 34px;
+      &::after {
+        font-size: 10px;
+
+        margin-top: 0;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+    }
+
+    .swiper-button-next {
+      background-color: #354ED2;
+      border-radius: 50%;
+      width: 34px;
       margin-left: 40px;
       height: 34px;
-    &::after{
-      font-size: 10px;
-   
-    margin-top: 0;
-    z-index: 10;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+
+      &::after {
+        font-size: 10px;
+
+        margin-top: 0;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
     }
-}
-    
+
     .swiper-pagination {
       position: relative !important;
       margin-top: 24px;
@@ -619,6 +622,65 @@ align-items: center;
         object-fit: cover;
       }
 
+    }
+  }
+}
+
+#faq {
+  padding: 48px 38px;
+  background: linear-gradient(180deg, #000 0%, #5db156 100%);
+  font-family: "DM Sans", sans-serif;
+
+  .faq-content {
+    text-align: left;
+    color: #fff;
+
+    h2 {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 38px;
+
+    }
+
+    h3 {
+      max-width: 625px;
+      margin-top: 18px;
+      margin-bottom: 44px;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 30px;
+
+    }
+  }
+
+  .accordion {
+
+    .accordion-item {
+      margin-bottom: 22px;
+      border: 1.5px solid #E7E6E4;
+      border-radius: 12px;
+
+      .accordion-header {
+        border-radius: 12px;
+
+
+        button {
+          border-radius: 12px;
+
+          padding: 15px 20px;
+          background-color: white;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 26.04px;
+          text-align: left;
+          color: #272522;
+        }
+
+        .accordion-button:not(.collapsed){
+      border: 1.5px solid #E7E6E4;
+      box-shadow: none;
+        }
+      }
     }
   }
 }
