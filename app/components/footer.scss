@@ -17,8 +17,6 @@ footer {
     justify-content: flex-start;
     gap: 8px;
     a {
-      height: 36px;
-      width: 36px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -29,6 +27,7 @@ footer {
       margin: 28px 0;
       i {
         font-size: 18px;
+        line-height: 0;
       }
     }
   }
@@ -48,5 +47,96 @@ footer {
         height: 3px;
       }
     }
+
+    ul {
+      padding: 0;
+      list-style: none;
+      margin-top: 12.5px;
+
+      li {
+        margin-bottom: 16px;
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 23px;
+          text-align: left;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .second-line {
+    margin-top: 64px;
+    .contact-info {
+      h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+
+        &:after {
+          content: "";
+          margin-top: 12px;
+          display: block;
+          background-color: #fff;
+          width: 80%;
+          height: 3px;
+        }
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+        margin-top: 12.5px;
+
+        li {
+          margin-bottom: 16px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 20px;
+          &:last-child {
+            margin: 0;
+            align-items: flex-start;
+            a {
+              max-width: 200px;
+            }
+          }
+          i {
+            color: #000;
+            font-size: 20px;
+            padding: 8px;
+            display: block;
+            line-height: 0;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: left;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+#copyright {
+  background-color: #f9f8fe;
+  padding: 16px 0;
+  color: #556ad9;
+  p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    margin: 0;
   }
 }

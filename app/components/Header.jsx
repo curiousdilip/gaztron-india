@@ -75,12 +75,12 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                    Company Information
+                      Company Information
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    Our Certificate
+                      Our Certificate
                     </a>
                   </li>
                 </ul>
@@ -98,18 +98,17 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                    
-                    PSA Nitrogen Gas Generator Plant
+                      PSA Nitrogen Gas Generator Plant
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    PSA Nitrogen Gas Generator Plant DX Model
+                      PSA Nitrogen Gas Generator Plant DX Model
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    PSA Nitrogen Gas Generator Plant CUDX Model
+                      PSA Nitrogen Gas Generator Plant CUDX Model
                     </a>
                   </li>
                 </ul>
@@ -127,34 +126,38 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                    PSA Oxygen Gas Generator Plant for Medical Applications
+                      PSA Oxygen Gas Generator Plant for Medical Applications
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    On-Site PSA Oxygen Gas Plant for Industrial Applications
+                      On-Site PSA Oxygen Gas Plant for Industrial Applications
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    PSA Oxygen Gas Plant For Cylinder Filling - 7 Nm3/Hr - 25 Cylinder/Day
+                      PSA Oxygen Gas Plant For Cylinder Filling - 7 Nm3/Hr - 25
+                      Cylinder/Day
                     </a>
-                  </li> <li>
+                  </li>{" "}
+                  <li>
                     <a className="dropdown-item" href="#">
-                    VPSA Oxygen Gas Generator
+                      VPSA Oxygen Gas Generator
                     </a>
-                  </li> <li>
+                  </li>{" "}
+                  <li>
                     <a className="dropdown-item" href="#">
-                    20 NM3/HR On-Site Oxygen Gas Generator
+                      20 NM3/HR On-Site Oxygen Gas Generator
                     </a>
-                  </li> <li>
+                  </li>{" "}
+                  <li>
                     <a className="dropdown-item" href="#">
-                    10 NM3/HR PSA Oxygen Gas Plant
+                      10 NM3/HR PSA Oxygen Gas Plant
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    30 NM3/HR Oxygen Gas Generator Plant
+                      30 NM3/HR Oxygen Gas Generator Plant
                     </a>
                   </li>
                 </ul>
@@ -172,12 +175,13 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                    Ammonia cracking Purifier Unit
+                      Ammonia cracking Purifier Unit
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    Ammonia Cracker Unit                    </a>
+                      Ammonia Cracker Unit{" "}
+                    </a>
                   </li>
                 </ul>
               </li>

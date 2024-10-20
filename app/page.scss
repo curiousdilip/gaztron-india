@@ -1,4 +1,6 @@
 #hero {
+  font-family: "DM Sans", sans-serif;
+
   padding-top: 130px;
   background-color: #000;
 
@@ -13,24 +15,26 @@
           background-color: rebeccapurple;
           animation: bubble 5s linear infinite;
           background-image: linear-gradient(to top, #60ba5f 0%, #206394 100%);
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          // margin-left: 250px;
           max-width: 50%;
-          padding: 187px;
-          border-radius: 50%;
-          // position: relative;
+          padding: 100px;
+
           height: 90%;
-          // width: 50%;
           margin: auto;
           z-index: 1;
 
           p {
-            font-size: 18px;
+            max-width: 612px;
+            font-size: 20px;
             font-weight: 700;
-            line-height: 18px;
-            text-align: center;
+            line-height: 20px;
+
+            margin: 0 auto;
+          }
+
+          h5 {
+            font-size: 70px;
+            font-weight: 500;
+            margin: 140px 0;
           }
 
           .cta-button {
