@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "../components/Header";
 import "./about.scss";
+import Footer from "../components/Footer";
 export default function About() {
   return (
     <>
@@ -114,13 +115,184 @@ export default function About() {
                 height={112}
                 alt="PSA Nitrogen Gas Generator Plant"
               />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div>
+            <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
+            </div> <div className="box">
+              <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h3>Efficient & Robust Perfomance</h3>
             </div>
           </div>
         </div>
-        <div className="accomplishments"></div>
-        <div className="quote"></div>
-        <div className="contact-us"></div>
+        <div className="accomplishments">
+        <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h2>Accreditation Accomplishments</h2>
+              <p>Our state-of-the-art manufacturing and office facility has achieved prestigious international certifications, solidifying our commitment to excellence and setting us apart from our competitors. We have successfully met the stringent compliance requirements of these certifications with flying colours, showcasing our unwavering dedication to quality and compliance.</p>
+             
+                <a href="#">View Certificates</a>
+             
+        </div>
+        <div className="quote">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="quote-container">
+                <h2>Request a quote.</h2>
+                <h3>Just submit your details and we’ll be in touch shortly.</h3>
+                <Image
+                  src="/img/contact.svg"
+                  width={559}
+                  height={395}
+                  alt="contact image"
+                />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <h4>I would like to discuss:</h4>
+              <form action="#">
+                <select
+                  className="form-select"
+                  aria-label="Default select example"
+                >
+                  <option value="1">PSA Nitrogen Generator</option>
+                  <option defaultValue="2">PSA Oxygen Generator</option>
+                  <option value="3">Cryogenic Gas plants</option>
+                  <option value="4">Ammonia Cracker</option>
+                  <option value="5">Air dryers</option>
+                </select>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Full Name *"
+                />
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Email Mail *"
+                />
+                <input
+                  type="tel"
+                  className="form-control"
+                  placeholder="Phone Number *"
+                />
+                <textarea
+                  className="form-control"
+                  rows="3"
+                  placeholder="Your Message *"
+                ></textarea>
+                <div className="btns">
+                  <button type="submit" className="btn btnsubmit">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="contact-us">
+        <Image
+                src="/img/star.svg"
+                width={112}
+                height={112}
+                alt="PSA Nitrogen Gas Generator Plant"
+              />
+              <h2>Contact Us </h2>
+              <p>Contact us today to learn more about how we can help you achieve your goals 🚀</p>
+             
+                <a href="#">Contact Us Now!</a>
+        </div>
       </section>
+      <Footer/>
     </>
   );
 }

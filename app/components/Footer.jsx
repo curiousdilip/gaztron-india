@@ -183,7 +183,7 @@ export default function Footer() {
         </div>
       </footer>
       <section id="copyright">
-        <p>Copyright © 2023 - All right reserved. Made with ❤️ by Gaztron</p>
+        <p>Copyright © 2023 - All right reserved. Designed by Gaztron & Developed by Dilip</p>
       </section>
     </>
   );
