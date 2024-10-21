@@ -1,6 +1,8 @@
 "use client";
 import "./header.scss";
 import Image from "next/image";
+import Link from "next/link";
+
 import React, { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -24,26 +26,26 @@ export default function Navbar() {
       <div className="contact-bar">
         <div className="contact-info">
           <i className="bi bi-phone"></i>
-          <a className="contact-res" href="tel:+918447203393">
+          <Link className="contact-res" href="tel:+918447203393">
             +91-8447203393
-          </a>
+          </Link>
         </div>
-        <a className="contact-res" href="#contact">
+        <Link className="contact-res" href="#contact">
           Get in touch with us. 🎉
-        </a>
+        </Link>
         <div className="contact-info">
           <i className="bi bi-envelope"></i>
-          <a href="mailto:info@gaztron.in" className="contact-res">
+          <Link href="mailto:info@gaztron.in" className="contact-res">
             info@gaztron.in
-          </a>
+          </Link>
         </div>
       </div>
       <nav className="navbar navbar-expand-xl navbar-light">
         <div className="container-fluid">
           <i></i>
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="/">
             <Image src="/img/logo.svg" width={121} height={50} alt="logo" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -58,12 +60,12 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" href="#">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -71,22 +73,22 @@ export default function Navbar() {
                   aria-expanded="false"
                 >
                   About
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/about">
                       Company Information
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       Our Certificate
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -94,27 +96,27 @@ export default function Navbar() {
                   aria-expanded="false"
                 >
                   Nitrogen Plant
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       PSA Nitrogen Gas Generator Plant
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       PSA Nitrogen Gas Generator Plant DX Model
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       PSA Nitrogen Gas Generator Plant CUDX Model
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -122,48 +124,48 @@ export default function Navbar() {
                   aria-expanded="false"
                 >
                   Oxygen Plant
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       PSA Oxygen Gas Generator Plant for Medical Applications
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       On-Site PSA Oxygen Gas Plant for Industrial Applications
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       PSA Oxygen Gas Plant For Cylinder Filling - 7 Nm3/Hr - 25
                       Cylinder/Day
-                    </a>
+                    </Link>
                   </li>{" "}
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       VPSA Oxygen Gas Generator
-                    </a>
+                    </Link>
                   </li>{" "}
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       20 NM3/HR On-Site Oxygen Gas Generator
-                    </a>
+                    </Link>
                   </li>{" "}
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       10 NM3/HR PSA Oxygen Gas Plant
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       30 NM3/HR Oxygen Gas Generator Plant
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -171,32 +173,34 @@ export default function Navbar() {
                   aria-expanded="false"
                 >
                   Hydrogen Plant
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       Ammonia cracking Purifier Unit
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="#">
                       Ammonia Cracker Unit{" "}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   Careers
-                </a>
+                </Link>
               </li>
             </ul>
-            <a className="cta-get">Get In Touch</a>
+            <Link className="cta-get" href={"/"}>
+              Get In Touch
+            </Link>
           </div>
         </div>
       </nav>

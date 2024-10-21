@@ -4,6 +4,16 @@ export default function Footer() {
   return (
     <>
       <footer>
+        <div className="arrow-up">
+          <a href="#">
+            <Image
+              src="/img/footer-arrow-up.svg"
+              width={116}
+              height={116}
+              alt="footer arrow up"
+            />
+          </a>
+        </div>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-3">
@@ -183,7 +193,10 @@ export default function Footer() {
         </div>
       </footer>
       <section id="copyright">
-        <p>Copyright © 2023 - All right reserved. Designed by Gaztron & Developed by Dilip</p>
+        <p>
+          Copyright © 2023 - All right reserved. Designed by Gaztron & Developed
+          by Dilip
+        </p>
       </section>
     </>
   );
