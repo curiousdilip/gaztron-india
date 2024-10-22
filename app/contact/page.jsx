@@ -2,9 +2,19 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Header";
 import "./contact.scss"
+export const metadata = {
+    title: 'Contact Gaztron: Your Gateway to Premium Nitrogen Gas Generation Solutions',
+    description: 'Welcome to the contact page.',
+    openGraph: {
+      title: 'Contact Gaztron: Your Gateway to Premium Nitrogen Gas Generation Solutions',
+      description: 'Welcome to the contact page.',
+      url: 'https://www.gaztronindia.com/contact',
+    },
+  };
 export default function Contact() {
     return (
         <>
+        
             <Navbar />
             <section id="contact-page">
                 <div className="contact-box">
