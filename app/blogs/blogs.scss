@@ -1,0 +1,76 @@
+#blogs-page {
+    font-family: "DM Sans", sans-serif;
+    background-color: #f9f8fe;
+    padding: 76px;
+    margin-top: 130px;
+  
+    .hero-image {
+      background-image: url("/img/about-us.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: white;
+      border: 1.5px solid #e7e6e4;
+      border-radius: 12px;
+      box-shadow: 0px 4px 0px 0px #0e0d0c1f;
+      height: 500px;
+    }
+  
+
+  
+    .blogs {
+        margin: 42px 0;
+      background-color: white;
+      border: 1.5px solid #e7e6e4;
+      border-radius: 12px;
+      box-shadow: 0px 4px 0px 0px #0e0d0c1f;
+      padding: 36px 32px;
+      text-align: center;
+      h2 {
+        margin-top: 28px;
+        margin-bottom: 24px;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 38px;
+      }
+      p {
+        font-family: DM Sans;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #99958f;
+        margin-bottom: 42px;
+      }
+  
+      .item-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px 18px;
+        .project {
+          border: 1.5px solid #5fb961;
+          border-radius: 12px;
+          img {
+            width: 100%;
+            border-bottom: 1.5px solid #5fb961;
+            height: 400px;
+            object-fit: cover;
+          }
+          h3 {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 0.04em;
+            text-align: center;
+            padding: 14px 18px;
+          }
+        }
+      }
+  
+      h4 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 38px;
+        margin-top: 32px;
+      }
+    }
+  }
+  
