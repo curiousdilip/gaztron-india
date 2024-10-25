@@ -30,7 +30,7 @@ export default function Navbar() {
             +91-8447203393
           </Link>
         </div>
-        <Link className="contact-res" href="#contact">
+        <Link className="contact-res" href="/#">
           Get in touch with us. 🎉
         </Link>
         <div className="contact-info">
@@ -60,7 +60,7 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" href="/">
                   Home
                 </Link>
               </li>
@@ -81,8 +81,13 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/certificates">
                       Our Certificate
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" href="/projects">
+                      Our Projects
                     </Link>
                   </li>
                 </ul>
@@ -188,12 +193,12 @@ export default function Navbar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" href="/contact">
                   Contact
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" href="/careers">
                   Careers
                 </Link>
               </li>
