@@ -58,116 +58,132 @@ export default function About() {
           <div className="features">
             <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/efficiently.png"
+                width={78}
+                height={78}
+                alt="Efficient & Robust Perfomance"
               />
               <h3>Efficient & Robust Perfomance</h3>
             </div>
             <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/customization.png"
+                width={78}
+                height={78}
+                alt="Customizability"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>Customizability</h3>
+            </div>{" "}
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/reliability.png"
+                width={78}
+                height={78}
+                alt="Reliability"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>Reliability</h3>
+            </div>{" "}
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/simple-install.png"
+                width={78}
+                height={78}
+                alt="Simple Installation"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>Simple Installation</h3>
+            </div>{" "}
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/remote.png"
+                width={78}
+                height={78}
+                alt="Remote Monitoring"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>Remote Monitoring</h3>
+            </div>{" "}
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/high-profile.png"
+                width={78}
+                height={78}
+                alt="High Profile Customers"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>High Profile Customers</h3>
+            </div>
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/low-energy.png"
+                width={78}
+                height={78}
+                alt="Lowest Energy Consumption"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>Lowest Energy Consumption</h3>
+            </div>
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/highly-skilled-team.png"
+                width={78}
+                height={78}
+                alt="Highly Skilled Technical Team"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>Highly Skilled Technical Team</h3>
+            </div>
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/int-certified.png"
+                width={78}
+                height={78}
+                alt="International Certification"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>International Certification</h3>
+            </div>
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/after-sale-service.png"
+                width={78}
+                height={78}
+                alt="After Sale Service"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>After Sale Service</h3>
+            </div>
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/own-manufacturing.png"
+                width={78}
+                height={78}
+                alt="Own Manufacturing Facility"
               />
-              <h3>Efficient & Robust Perfomance</h3>
-            </div> <div className="box">
+              <h3>Own Manufacturing Facility</h3>
+            </div>
+            <div className="box">
               <Image
-                src="/img/star.svg"
-                width={112}
-                height={112}
-                alt="PSA Nitrogen Gas Generator Plant"
+                src="/img/fully-automated.png"
+                width={78}
+                height={78}
+                alt="Fully Automatic Plants"
               />
-              <h3>Efficient & Robust Perfomance</h3>
+              <h3>Fully Automatic Plants</h3>
             </div>
           </div>
         </div>
         <div className="accomplishments">
           <Image
-            src="/img/star.svg"
+            src="/img/iso-symbol.png"
             width={112}
             height={112}
             alt="PSA Nitrogen Gas Generator Plant"
           />
           <h2>Accreditation Accomplishments</h2>
-          <p>Our state-of-the-art manufacturing and office facility has achieved prestigious international certifications, solidifying our commitment to excellence and setting us apart from our competitors. We have successfully met the stringent compliance requirements of these certifications with flying colours, showcasing our unwavering dedication to quality and compliance.</p>
+          <p>
+            Our state-of-the-art manufacturing and office facility has achieved
+            prestigious international certifications, solidifying our commitment
+            to excellence and setting us apart from our competitors. We have
+            successfully met the stringent compliance requirements of these
+            certifications with flying colours, showcasing our unwavering
+            dedication to quality and compliance.
+          </p>
 
           <a href="#">View Certificates</a>
-
         </div>
         <Quote />
         <ContactBox />

@@ -276,7 +276,7 @@ export default function Home() {
                 alt="dots"
               />
               <Image
-                className="main-image "
+                className="main-image img-fluid "
                 src="/img/On-Site_PSA_Nitrogen_Gas_Generator_Plant.jpeg"
                 width={770}
                 height={770}
@@ -376,6 +376,7 @@ export default function Home() {
 
               <div className="points">
                 <Image
+                  className=""
                   src="/img/point.svg"
                   width={28}
                   height={28}
@@ -428,7 +429,7 @@ export default function Home() {
                 alt="dots"
               />
               <Image
-                className="main-image "
+                className="main-image img-fluid "
                 src="/img/PSA_Oxygen_Gas_Generator_Plant.jpeg"
                 width={784}
                 height={784}
@@ -458,7 +459,7 @@ export default function Home() {
                 alt="dots"
               />
               <Image
-                className="main-image"
+                className="main-image img-fluid"
                 src="/img/Gaztron_Ammonia_Cracker.jpeg"
                 width={770}
                 height={770}
@@ -610,7 +611,7 @@ export default function Home() {
                 alt="dots"
               />
               <Image
-                className="main-image "
+                className="main-image img-fluid "
                 src="/img/Cryogenic_ASU_Gas_Plants.jpeg"
                 width={770}
                 height={770}
