@@ -1,18 +1,19 @@
 import Image from "next/image";
 import "./footer.scss";
+import Link from "next/link";
 export default function Footer() {
   return (
     <>
       <footer>
         <div className="arrow-up">
-          <a href="#">
+          <Link href="/">
             <Image
               src="/img/footer-arrow-up.svg"
               width={116}
               height={116}
               alt="footer arrow up"
             />
-          </a>
+          </Link>
         </div>
         <div className="container-fluid">
           <div className="row">
@@ -29,24 +30,39 @@ export default function Footer() {
                 and drive success.
               </p>
               <div className="social">
-                <a href="#">
+                <Link
+                  href="https://www.linkedin.com/company/gaztron-engineering-private-limited/"
+                  target="_blank"
+                >
                   <i className="bi bi-linkedin"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link href="https://twitter.com/GaztronIndia" target="_blank">
                   <i className="bi bi-twitter-x"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  href="https://www.facebook.com/GaztronEngineering/"
+                  target="_blank"
+                >
                   <i className="bi bi-facebook"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  href="https://www.instagram.com/gaztronindia/"
+                  target="_blank"
+                >
                   <i className="bi bi-instagram"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@gaztronengineeringpvtltd-n7856"
+                  target="_blank"
+                >
                   <i className="bi bi-youtube"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link
+                  href="https://api.whatsapp.com/send?phone=8447203393"
+                  target="_blank"
+                >
                   <i className="bi bi-whatsapp"></i>
-                </a>
+                </Link>
               </div>
 
               <p>Select Language</p>
@@ -58,19 +74,19 @@ export default function Footer() {
                     <h2>Products</h2>
                     <ul>
                       <li>
-                        <a href="#">PSA Nitrogen Generator Plant</a>
+                        <Link href="/">PSA Nitrogen Generator Plant</Link>
                       </li>
                       <li>
-                        <a href="#">PSA Oxygen Generator Plant</a>
+                        <Link href="/">PSA Oxygen Generator Plant</Link>
                       </li>
                       <li>
-                        <a href="#">Hydrogen Generator</a>
+                        <Link href="/">Hydrogen Generator</Link>
                       </li>
                       <li>
-                        <a href="#">Cryogenic ASU Gas Plants</a>
+                        <Link href="/">Cryogenic ASU Gas Plants</Link>
                       </li>
                       <li>
-                        <a href="#">Air Dryer</a>
+                        <Link href="/">Air Dryer</Link>
                       </li>
                     </ul>
                   </div>
@@ -80,13 +96,13 @@ export default function Footer() {
                     <h2>Company</h2>
                     <ul>
                       <li>
-                        <a href="#">About Us</a>
+                        <Link href="/about">About Us</Link>
                       </li>
                       <li>
-                        <a href="#">Careers</a>
+                        <Link href="/careers">Careers</Link>
                       </li>
                       <li>
-                        <a href="#">Blogs</a>
+                        <Link href="/blogs">Blogs</Link>
                       </li>
                     </ul>
                   </div>
@@ -96,13 +112,13 @@ export default function Footer() {
                     <h2>Support</h2>
                     <ul>
                       <li>
-                        <a href="#">Contact Us</a>
+                        <Link href="/contact">Contact Us</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy Policy</a>
+                        <Link href="/privacy-policy">Privacy Policy</Link>
                       </li>
                       <li>
-                        <a href="#">Supply Policy</a>
+                        <Link href="/supply-policy">Supply Policy</Link>
                       </li>
                     </ul>
                   </div>
@@ -115,22 +131,22 @@ export default function Footer() {
                     <ul>
                       <li>
                         <i className="bi bi-telephone-fill"></i>
-                        <a>+91-8447203393</a>
+                        <Link href="/">+91-8447203393</Link>
                       </li>
                       <li>
                         <i className="bi bi-whatsapp"></i>
-                        <a>8447203393</a>
+                        <Link href="/">8447203393</Link>
                       </li>
                       <li>
                         <i className="bi bi-envelope-fill"></i>
-                        <a>info@gaztron.in</a>
+                        <Link href="/">info@gaztron.in</Link>
                       </li>
                       <li>
                         <i className="bi bi-geo-alt-fill"></i>
-                        <a>
+                        <Link href="/">
                           Industrial Plot No. - 179, Udyog Kendra - I, Ecotech-
                           III, Greater Noida - 201306
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -141,22 +157,22 @@ export default function Footer() {
                     <ul>
                       <li>
                         <i className="bi bi-telephone-fill"></i>
-                        <a>+91-8447203393</a>
+                        <Link href="/">+91-8447203393</Link>
                       </li>
                       <li>
                         <i className="bi bi-whatsapp"></i>
-                        <a>8447203393</a>
+                        <Link href="/">8447203393</Link>
                       </li>
                       <li>
                         <i className="bi bi-envelope-fill"></i>
-                        <a>info@gaztron.in</a>
+                        <Link href="/">info@gaztron.in</Link>
                       </li>
                       <li>
                         <i className="bi bi-geo-alt-fill"></i>
-                        <a>
+                        <Link href="/">
                           Industrial Plot No. – A 341, Udyog Kendra – I,
                           Ecotech– III, Greater Noida – 201306
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -167,22 +183,22 @@ export default function Footer() {
                     <ul>
                       <li>
                         <i className="bi bi-telephone-fill"></i>
-                        <a>+91-8447203393</a>
+                        <Link href="/">+91-8447203393</Link>
                       </li>
                       <li>
                         <i className="bi bi-whatsapp"></i>
-                        <a>8447203393</a>
+                        <Link href="/">8447203393</Link>
                       </li>
                       <li>
                         <i className="bi bi-envelope-fill"></i>
-                        <a>info@gaztron.in</a>
+                        <Link href="/">info@gaztron.in</Link>
                       </li>
                       <li>
                         <i className="bi bi-geo-alt-fill"></i>
-                        <a>
+                        <Link href="/">
                           Industrial Plot N0. - 85 YEIDA Sector-28 , Yamuna
                           Expressway, 203135
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
